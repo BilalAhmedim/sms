@@ -13,6 +13,8 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.layout.GridPane;
 
+import java.io.IOException;
+
 public class LoginController {
   @FXML
   private Button Login;
@@ -36,23 +38,11 @@ public class LoginController {
   }
 
   @FXML
-  public void Login(ActionEvent e) {
-
-    if (e.getSource().equals(Login))
-      User = true;
-    else
-      UserNameError.setText("Invalid UserName!");
-    if (e.getSource().equals(Login))
-      Password = true;
-    else
-      PasswordError.setText("Invalid Password!");
-    if (User && Password) {
-      try {
-        GridPane Pane = FXMLLoader.load(getClass().getResource("MainWindow.fxml"));
-        LoginPane.getChildren().setAll(Pane);
-      } catch (Exception exception) {
-        System.out.println("Unable to Login: " + exception);
-      }
-    }
+  public void Login(ActionEvent e) throws IOException {
+    Parent Pane = FXMLLoader.load(getClass().getResource("MainWindow.fxml"));
+    Scene scene = new Scene(Pane);
+    Stage window = (Stage) ((Node)e.getSource()).getScene().getWindow();
+    window.setScene(scene);
+    window.show();
   }
 }
