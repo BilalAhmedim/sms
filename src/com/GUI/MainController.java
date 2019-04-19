@@ -17,7 +17,7 @@ public class MainController {
 
   @FXML
   public void MainWindow(ActionEvent e) throws IOException{
-    Parent Pane = FXMLLoader.load(getClass().getResource("Login.fxml"));
+    Parent Pane = FXMLLoader.load(getClass().getResource("FXML/Login.fxml"));
     Scene scene = new Scene(Pane);
     Stage window = (Stage) ((Node)e.getSource()).getScene().getWindow();
     window.setScene(scene);

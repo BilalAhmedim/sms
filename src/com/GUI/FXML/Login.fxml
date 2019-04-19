@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+
+<GridPane stylesheets="@../style.css" styleClass="Pane" alignment="CENTER" hgap="5" vgap="5" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.GUI.LoginController">
+  <columnConstraints>
+    <ColumnConstraints percentWidth="30" />
+    <ColumnConstraints />
+    <ColumnConstraints />
+    <ColumnConstraints percentWidth="30" />
+  </columnConstraints>
+  <Label text="College Management System" styleClass="Head" GridPane.columnIndex="0" GridPane.columnSpan="4" GridPane.halignment="CENTER" GridPane.rowIndex="0"/>
+  <Label text="User Name:" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.rowIndex="1" styleClass="text"/>
+  <TextField fx:id="LoginUserName" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.rowIndex="2" styleClass="input"/>
+  <Label fx:id="UserNameError" styleClass="text"/>
+  <Label text="Password:" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.rowIndex="3" styleClass="text"/>
+  <PasswordField fx:id="LoginUserPassword" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.rowIndex="4" styleClass="input"/>
+  <Label fx:id="PasswordError" styleClass="text"/>
+  <Button fx:id="Login" onAction="#Login" text="Login" GridPane.columnIndex="2" GridPane.halignment="RIGHT" GridPane.rowIndex="5" styleClass="button text"/>
+</GridPane>

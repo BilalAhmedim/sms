@@ -1,0 +1,50 @@
+@font-face{
+  -fx-font-family: "Montserrat Light"
+  src: url("font/Montserrat-Light.ttf");
+}
+@font-face{
+  -fx-font-family: "Montserrat Medium"
+  src: url("font/Montserrat-Medium.ttf");
+}
+@font-face{
+  -fx-font-family: "Montserrat Regular"
+  src: url("font/Montserrat-Regular.ttf");
+}
+@font-face{
+  -fx-font-family: "Montserrat Bold"
+  src: url("font/Montserrat-Bold.ttf");
+}
+*{
+  -fx-Pane: #eee2df;
+  -fx-Input: #e77c7a;
+  -fx-Button: #ff5e5b;
+  -fx-Text: #000f08;
+  -fx-left: #c3b3cc;
+  -fx-right: #ff5e5b;
+}
+
+.Pane{
+  -fx-background: -fx-Pane;
+}
+.input{
+  -fx-background-color: -fx-Input;
+}
+.button{
+  -fx-background-color: -fx-Button;
+  -fx-effect: dropshadow(three-pass-box , -fx-Input, 24, 0, 0, 5px)
+}
+.text{
+  -fx-fill: -fx-Text;
+  -fx-font-family: "Montserrat";
+  -fx-weight: Regular;
+  -fx-font-size: 18px;
+}
+.Head{
+  -fx-fill: -fx-Text;
+  -fx-font-family: "Montserrat";
+  -fx-weight: Bold;
+  -fx-font-size: 36px;
+}
+.gradient{
+  -fx-background-color: linear-gradient(to left, -fx-left, -fx-right);
+}
