@@ -15,7 +15,7 @@ public class Main extends Application {
     FXMLLoader loader = new FXMLLoader(new File("src/com/GUI/FXML/Login.fxml").toURI().toURL());
     Parent root = loader.load();
     PrimaryStage.setTitle("Login");
-    PrimaryStage.setScene(new Scene(root, 650, 400));
+    PrimaryStage.setScene(new Scene(root));
     PrimaryStage.show();
   }
 }

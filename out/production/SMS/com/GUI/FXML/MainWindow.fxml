@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?import javafx.scene.layout.GridPane?>
-<?import javafx.scene.control.Label?>
-
 <?import javafx.scene.control.Button?>
-<GridPane stylesheets="@../style.css" styleClass="Pane" xmlns="https://javafx.com/fxml" xmlns:fx="http://javafx.com/fxml" fx:controller="com.GUI.MainController" alignment="CENTER">
- <Label text="Hello" GridPane.rowIndex="0" GridPane.columnIndex="0" styleClass="text"/>
- <Button text="Click Me.." onAction="#MainWindow" GridPane.rowIndex="1" GridPane.columnIndex="0" styleClass="button text"/>
+
+<GridPane stylesheets="@../style.css" styleClass="main" xmlns="https://javafx.com/fxml" xmlns:fx="http://javafx.com/fxml" fx:controller="com.GUI.MainController" alignment="CENTER">
+  <Button text="Pass Outs->" onAction="#MainWindow" GridPane.rowIndex="0" GridPane.columnIndex="0" styleClass="button text" prefWidth="300" prefHeight="300"/>
+  <Button text="Fees" onAction="#MainWindow" GridPane.rowIndex="0" GridPane.columnIndex="1" styleClass="button text" prefWidth="300" prefHeight="300"/>
+  <Button text="New Admission" onAction="#MainWindow" GridPane.rowIndex="1" GridPane.columnIndex="0" styleClass="button text" prefWidth="300" prefHeight="300"/>
+  <Button text="Result" onAction="#MainWindow" GridPane.rowIndex="1" GridPane.columnIndex="1" styleClass="button text" prefWidth="300" prefHeight="300"/>
 </GridPane>

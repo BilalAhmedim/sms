@@ -3,48 +3,77 @@
   src: url("font/Montserrat-Light.ttf");
 }
 @font-face{
-  -fx-font-family: "Montserrat Medium"
-  src: url("font/Montserrat-Medium.ttf");
-}
-@font-face{
   -fx-font-family: "Montserrat Regular"
   src: url("font/Montserrat-Regular.ttf");
+}
+@font-face{
+  -fx-font-family: "Montserrat Medium"
+  src: url("font/Montserrat-Medium.ttf");
 }
 @font-face{
   -fx-font-family: "Montserrat Bold"
   src: url("font/Montserrat-Bold.ttf");
 }
+/*
+-fx-Input: #e77c7a;
+-fx-Button: #ff5e5b;
+-fx-Pane: #eee2df;
+*/
 *{
-  -fx-Pane: #eee2df;
-  -fx-Input: #e77c7a;
-  -fx-Button: #ff5e5b;
+  -fx-Pane: #fff;
+  -fx-Input: #ccc;
+  -fx-Button: #bbb;
   -fx-Text: #000f08;
-  -fx-left: #c3b3cc;
-  -fx-right: #ff5e5b;
+  -fx-right: #c3b3cc;
+  -fx-left: #ff5e5b;
 }
 
-.Pane{
+.root{
+  -fx-font-family: Montserrat;
   -fx-background: -fx-Pane;
+  -fx-padding: 50px;
 }
 .input{
+  -fx-width: 200px;
   -fx-background-color: -fx-Input;
+  -fx-effect: dropshadow(three-pass-box , -fx-Input, 24, 0, 0, 5px);
 }
 .button{
   -fx-background-color: -fx-Button;
-  -fx-effect: dropshadow(three-pass-box , -fx-Input, 24, 0, 0, 5px)
+  -fx-font-size: 16;
+  -fx-padding: 5 12;
+  -fx-effect: dropshadow(three-pass-box , -fx-Input, 24, 0, 0, 5px);
 }
-.text{
-  -fx-fill: -fx-Text;
-  -fx-font-family: "Montserrat";
-  -fx-weight: Regular;
-  -fx-font-size: 18px;
+.main{
+  -fx-padding: 0;
+  -fx-font-color: #fff;
 }
-.Head{
+.main .button{
+  -fx-border-radius: 0;
+  -fx-border-color: #111;
+  -fx-border-width: 1;
+  -fx-font-weight: 500;
+  -fx-font-size: 22;
+  -fx-background-color: none;
+  -fx-effects: dropshadow(three-pass-box , #111, 0, 0, 0, 0);
+}
+.root .head{
+  -fx-font-size: 36;
   -fx-fill: -fx-Text;
-  -fx-font-family: "Montserrat";
   -fx-weight: Bold;
-  -fx-font-size: 36px;
 }
-.gradient{
-  -fx-background-color: linear-gradient(to left, -fx-left, -fx-right);
+.Label{
+  -fx-fill: -fx-Text;
+  -fx-font-family: Montserrat;
+  -fx-font-size: 18;
+  -fx-padding: 10px 0 3 0;
+}
+.Label--low-gap{
+  -fx-fill: -fx-Text;
+  -fx-font-family: Montserrat;
+  -fx-font-size: 18;
+  -fx-padding: 0;
+}
+.Header__Label{
+-fx-font-size: 36;
 }

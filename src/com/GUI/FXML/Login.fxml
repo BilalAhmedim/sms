@@ -7,19 +7,24 @@
 <?import javafx.scene.layout.ColumnConstraints?>
 <?import javafx.scene.layout.GridPane?>
 
-<GridPane stylesheets="@../style.css" styleClass="Pane" alignment="CENTER" hgap="5" vgap="5" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.GUI.LoginController">
+<?import javafx.geometry.Insets?>
+<GridPane alignment="CENTER" styleClass="root" stylesheets="@../style.css" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="com.GUI.Controller.LoginController">
   <columnConstraints>
-    <ColumnConstraints percentWidth="30" />
-    <ColumnConstraints />
-    <ColumnConstraints />
-    <ColumnConstraints percentWidth="30" />
+    <ColumnConstraints/>
+    <ColumnConstraints prefWidth="130"/>
+    <ColumnConstraints prefWidth="130"/>
+    <ColumnConstraints/>
   </columnConstraints>
-  <Label text="College Management System" styleClass="Head" GridPane.columnIndex="0" GridPane.columnSpan="4" GridPane.halignment="CENTER" GridPane.rowIndex="0"/>
-  <Label text="User Name:" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.rowIndex="1" styleClass="text"/>
-  <TextField fx:id="LoginUserName" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.rowIndex="2" styleClass="input"/>
-  <Label fx:id="UserNameError" styleClass="text"/>
-  <Label text="Password:" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.rowIndex="3" styleClass="text"/>
-  <PasswordField fx:id="LoginUserPassword" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.rowIndex="4" styleClass="input"/>
-  <Label fx:id="PasswordError" styleClass="text"/>
-  <Button fx:id="Login" onAction="#Login" text="Login" GridPane.columnIndex="2" GridPane.halignment="RIGHT" GridPane.rowIndex="5" styleClass="button text"/>
+  <Label styleClass="head" text="MPI Login" GridPane.columnIndex="0" GridPane.columnSpan="4" GridPane.halignment="CENTER" GridPane.rowIndex="0"/>
+  <Label styleClass="labels" text="User Name:" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.rowIndex="1" />
+  <TextField fx:id="LoginUserName" styleClass="input" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.rowIndex="2"/>
+  <Label fx:id="UserNameError" styleClass="text" />
+  <Label styleClass="labels" text="Password:" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.rowIndex="3" />
+  <PasswordField fx:id="LoginUserPassword" styleClass="input" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.rowIndex="4"/>
+  <Label fx:id="PasswordError" styleClass="text" />
+  <Button fx:id="Login" onAction="#Login" styleClass="button text" text="Login" GridPane.columnIndex="2" GridPane.halignment="RIGHT" GridPane.rowIndex="5">
+    <GridPane.margin>
+      <Insets top="15"/>
+    </GridPane.margin>
+  </Button>
 </GridPane>

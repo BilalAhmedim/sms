@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.Button?>
+
+<GridPane stylesheets="@../style.css" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="com.GUI.Controller.PassOutsController">
+  <VBox GridPane.columnIndex="0" GridPane.rowIndex="0" GridPane.columnSpan="4">
+    <Label text="Search Pass Out Students" styleClass="Header__Label"/>
+    <Label text="Enrolment No:" styleClass="Label"/>
+    <TextField promptText="Enter Student Enrolment No" styleClass="input"/>
+    <Button text="Search" styleClass="Button"/>
+  </VBox>
+</GridPane>
