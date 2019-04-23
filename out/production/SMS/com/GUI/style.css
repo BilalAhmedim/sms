@@ -62,9 +62,18 @@
   -fx-fill: -fx-Text;
   -fx-weight: Bold;
 }
-.labels{
+.Label{
   -fx-fill: -fx-Text;
   -fx-font-family: Montserrat;
   -fx-font-size: 18;
   -fx-padding: 10px 0 3 0;
+}
+.Label--low-gap{
+  -fx-fill: -fx-Text;
+  -fx-font-family: Montserrat;
+  -fx-font-size: 18;
+  -fx-padding: 0;
+}
+.Header__Label{
+-fx-font-size: 36;
 }

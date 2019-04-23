@@ -11,7 +11,7 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 
-public class MainController {
+public class MenuController {
   @FXML
   private Button Pass_Outs;
   @FXML
@@ -20,9 +20,10 @@ public class MainController {
   private Button New_Admission;
   @FXML
   private Button Result;
-
   @FXML
-  public void MainWindow(ActionEvent event) throws IOException{
+  private Button About;
+  @FXML
+  public void changeScene(ActionEvent event) throws IOException {
     if (event.getSource() == Pass_Outs) {
       Parent Pane = FXMLLoader.load(getClass().getResource("../FXML/PassOuts.fxml"));
       Scene scene = new Scene(Pane);
@@ -53,5 +54,4 @@ public class MainController {
       window.show();
     }
   }
-
 }

@@ -14,7 +14,7 @@ public class LoginController {
 
   @FXML
   public void Login(ActionEvent e) throws IOException {
-    Parent Pane = FXMLLoader.load(getClass().getResource("FXML/MainWindow.fxml"));
+    Parent Pane = FXMLLoader.load(getClass().getResource("../FXML/MainWindow.fxml"));
     Scene scene = new Scene(Pane);
     Stage window = (Stage) ((Node)e.getSource()).getScene().getWindow();
     window.setTitle("Student Management System");

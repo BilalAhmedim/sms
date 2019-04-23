@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?import javafx.scene.layout.GridPane?>
-<?import javafx.scene.control.Button?>
 
-<GridPane stylesheets="@../style.css" styleClass="main" xmlns="https://javafx.com/fxml" xmlns:fx="http://javafx.com/fxml" fx:controller="com.GUI.MainController" alignment="CENTER">
-  <Button text="Pass Outs->" onAction="#MainWindow" GridPane.rowIndex="0" GridPane.columnIndex="0" styleClass="button text" prefWidth="300" prefHeight="300"/>
-  <Button text="Fees" onAction="#MainWindow" GridPane.rowIndex="0" GridPane.columnIndex="1" styleClass="button text" prefWidth="300" prefHeight="300"/>
-  <Button text="New Admission" onAction="#MainWindow" GridPane.rowIndex="1" GridPane.columnIndex="0" styleClass="button text" prefWidth="300" prefHeight="300"/>
-  <Button text="Result" onAction="#MainWindow" GridPane.rowIndex="1" GridPane.columnIndex="1" styleClass="button text" prefWidth="300" prefHeight="300"/>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<GridPane alignment="CENTER" styleClass="main" stylesheets="@../style.css" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="com.GUI.Controller.MainController">
+  <Button fx:id="Pass_Outs" onAction="#MainWindow" prefHeight="300" prefWidth="300" styleClass="button text" text="Pass Outs" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+  <Button fx:id="Fees" onAction="#MainWindow" prefHeight="300" prefWidth="300" styleClass="button text" text="Fees" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+  <Button fx:id="New_Admission" onAction="#MainWindow" prefHeight="300" prefWidth="300" styleClass="button text" text="New Admission" GridPane.columnIndex="0" GridPane.rowIndex="2" />
+  <Button fx:id="Result" onAction="#MainWindow" prefHeight="300" prefWidth="300" styleClass="button text" text="Result" GridPane.columnIndex="1" GridPane.rowIndex="2" />
 </GridPane>
