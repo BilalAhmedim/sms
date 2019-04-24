@@ -6,20 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="e5669ff5-627e-433d-b291-7fdfcd875b5c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SMS/com/GUI/FXML/Login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SMS/com/GUI/FXML/Login.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SMS/com/GUI/FXML/MainWindow.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SMS/com/GUI/FXML/MainWindow.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SMS/com/GUI/LoginController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SMS/com/GUI/MainController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SMS/com/GUI/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SMS/com/GUI/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/GUI/Controller/FeesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/GUI/Controller/FeesController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/GUI/Controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/GUI/Controller/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/GUI/Controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/GUI/Controller/MainController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/GUI/FXML/Fees.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/GUI/FXML/Fees.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/GUI/FXML/FeesRecords.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/GUI/FXML/FeesRecords.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/GUI/FXML/MainWindow.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/GUI/FXML/MainWindow.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/GUI/FXML/Menu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/GUI/FXML/Menu.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/GUI/FXML/NewAdmission.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/GUI/FXML/NewAdmission.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/GUI/FXML/PassOuts.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/GUI/FXML/PassOuts.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/GUI/FXML/Result.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/GUI/FXML/Result.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/GUI/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/GUI/style.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,10 +30,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/GUI/FXML/MainWindow.fxml">
+        <entry file="file://$PROJECT_DIR$/src/com/GUI/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="3" column="39" lean-forward="true" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
+            <state relative-caret-position="24">
+              <caret line="40" column="2" selection-start-line="40" selection-start-column="2" selection-end-line="40" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/GUI/FXML/Menu.fxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
             </state>
           </provider>
           <provider editor-type-id="JavaFX-Scene-Builder" />
@@ -73,18 +75,18 @@
         <option value="$PROJECT_DIR$/src/com/GUI/FXML/Login.fxml" />
         <option value="$PROJECT_DIR$/src/com/GUI/MainController.java" />
         <option value="$PROJECT_DIR$/src/com/GUI/LoginController.java" />
-        <option value="$PROJECT_DIR$/src/com/GUI/style.css" />
         <option value="$PROJECT_DIR$/src/com/GUI/Controller/LoginController.java" />
         <option value="$PROJECT_DIR$/src/com/GUI/Controller/FeesController.java" />
+        <option value="$PROJECT_DIR$/src/com/GUI/Controller/MainController.java" />
+        <option value="$PROJECT_DIR$/src/com/GUI/FXML/MainWindow.fxml" />
+        <option value="$PROJECT_DIR$/src/com/GUI/Controller/MenuController.java" />
+        <option value="$PROJECT_DIR$/src/com/GUI/FXML/PassOuts.fxml" />
         <option value="$PROJECT_DIR$/src/com/GUI/FXML/Menu.fxml" />
         <option value="$PROJECT_DIR$/src/com/GUI/FXML/Fees.fxml" />
         <option value="$PROJECT_DIR$/src/com/GUI/FXML/FeesRecords.fxml" />
         <option value="$PROJECT_DIR$/src/com/GUI/FXML/NewAdmission.fxml" />
-        <option value="$PROJECT_DIR$/src/com/GUI/FXML/PassOuts.fxml" />
         <option value="$PROJECT_DIR$/src/com/GUI/FXML/Result.fxml" />
-        <option value="$PROJECT_DIR$/src/com/GUI/Controller/MenuController.java" />
-        <option value="$PROJECT_DIR$/src/com/GUI/Controller/MainController.java" />
-        <option value="$PROJECT_DIR$/src/com/GUI/FXML/MainWindow.fxml" />
+        <option value="$PROJECT_DIR$/src/com/GUI/style.css" />
       </list>
     </option>
   </component>
@@ -95,10 +97,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1612" />
-    <option name="y" value="-18" />
-    <option name="width" value="1380" />
-    <option name="height" value="735" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="784" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -106,6 +108,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -129,21 +133,12 @@
               <item name="sms" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="GUI" type="462c0819:PsiDirectoryNode" />
-              <item name="Controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="GUI" type="462c0819:PsiDirectoryNode" />
               <item name="FXML" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -201,10 +196,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1358" y="-8" width="1382" height="784" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19591528" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20196672" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -214,12 +209,12 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" auto_hide="true" x="2" y="397" width="1353" height="327" id="Run" internal_type="SLIDING" order="2" sideWeight="0.49848714" type="FLOATING" visible="true" weight="0.2208" />
+      <window_info anchor="bottom" auto_hide="true" x="6" y="374" width="1353" height="354" id="Run" internal_type="SLIDING" order="2" sideWeight="0.49848714" type="FLOATING" weight="0.2208" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3296" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.608" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5015129" side_tool="true" weight="0.5552" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.35213676" />
@@ -282,14 +277,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/GUI/FXML/Login.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/GUI/Controller/FeesRecordsController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
@@ -301,13 +288,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/GUI/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="539">
-          <caret line="58" column="1" selection-start-line="58" selection-start-column="1" selection-end-line="58" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -338,64 +318,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/GUI/FXML/Menu.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/GUI/FXML/Fees.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="79" lean-forward="true" selection-start-line="9" selection-start-column="79" selection-end-line="9" selection-end-column="79" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/GUI/FXML/FeesRecords.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="121" column="30" lean-forward="true" selection-start-line="121" selection-start-column="30" selection-end-line="121" selection-end-column="30" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/GUI/FXML/NewAdmission.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="85" lean-forward="true" selection-start-line="6" selection-start-column="85" selection-end-line="6" selection-end-column="85" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/GUI/FXML/PassOuts.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="13" column="41" lean-forward="true" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/GUI/Controller/MenuController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="30" column="44" lean-forward="true" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/GUI/FXML/Result.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/GUI/Controller/MainController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-684">
@@ -403,13 +325,86 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/GUI/Controller/MenuController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/GUI/FXML/MainWindow.fxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="39" lean-forward="true" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
+        <state relative-caret-position="264">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
       <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/GUI/FXML/FeesRecords.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/GUI/FXML/Fees.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/GUI/FXML/Login.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/GUI/FXML/NewAdmission.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/GUI/FXML/PassOuts.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/GUI/FXML/Result.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/GUI/FXML/Menu.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/GUI/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="40" column="2" selection-start-line="40" selection-start-column="2" selection-end-line="40" selection-end-column="2" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">

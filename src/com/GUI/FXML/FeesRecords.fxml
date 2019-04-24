@@ -8,116 +8,125 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.control.TextField?>
-<GridPane stylesheets="@../style.css" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="com.GUI.Controller.FeesRecordsController">
-  <fx:include source="Menu.fxml" GridPane.columnIndex="0" GridPane.rowIndex="0" GridPane.columnSpan="2" />
-  <Label styleClass="Header__Label" text="Fees Record" GridPane.columnIndex="0" GridPane.columnSpan="5" GridPane.halignment="CENTER" GridPane.rowIndex="1"/>
 
-  <HBox GridPane.columnIndex="0" GridPane.rowIndex="2" GridPane.columnSpan="3" GridPane.halignment="CENTER"><!-- Parent HBox -->
-    <HBox>
-      <ImageView fitHeight="224" fitWidth="150" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="0" GridPane.rowIndex="1" GridPane.rowSpan="6">
-        <Image url="@1.jpg"/>
-      </ImageView>
-    </HBox>
-    <HBox>
-      <VBox>
-        <Label styleClass="Label--low-gap" text="Student Name "/>
-        <Label styleClass="Label--low-gap" text="Father's Name "/>
-        <Label styleClass="Label--low-gap" text="Branch "/>
-        <Label styleClass="Label--low-gap" text="Semester "/>
-        <Label styleClass="Label--low-gap" text="Mobile No. "/>
-      </VBox>
-      <VBox>
-        <Label styleClass="Label--low-gap" text=": "/>
-        <Label styleClass="Label--low-gap" text=": "/>
-        <Label styleClass="Label--low-gap" text=": "/>
-        <Label styleClass="Label--low-gap" text=": "/>
-        <Label styleClass="Label--low-gap" text=": "/>
-      </VBox>
-      <VBox>
-        <Label styleClass="Label--low-gap" text="Bilal Ahmed"/>
-        <Label styleClass="Label--low-gap" text="Khaleel Ahmed"/>
-        <Label styleClass="Label--low-gap" text="C.S"/>
-        <Label styleClass="Label--low-gap" text="VI"/>
-        <Label styleClass="Label--low-gap" text="7895126594"/>
-      </VBox>
-    </HBox>
-  </HBox><!-- End Parent HBox -->
+<?import javafx.scene.layout.BorderPane?>
+<BorderPane stylesheets="@../style.css" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="com.GUI.Controller.FeesRecordsController">
+  <top>
+    <fx:include source="Menu.fxml"/>
+  </top>
+  <center>
+    <GridPane alignment="CENTER">
+      <Label styleClass="Header__Label" text="Fees Record" GridPane.columnIndex="0" GridPane.columnSpan="5" GridPane.halignment="CENTER" GridPane.rowIndex="1"/>
 
-  <VBox GridPane.columnIndex="0" GridPane.rowIndex="9"><!--Semester Pane-->
-    <Label styleClass="Label" text="Semester"/>
-    <Label text="Semester I" styleClass="Label--low-gap"/>
-    <Label text="Semester II" styleClass="Label--low-gap"/>
-    <Label text="Semester III" styleClass="Label--low-gap"/>
-    <Label text="Semester IV" styleClass="Label--low-gap"/>
-    <Label text="Semester V" styleClass="Label--low-gap"/>
-    <Label text="Semester VI" styleClass="Label--low-gap"/>
-  </VBox><!-- End Semester Pane -->
+      <HBox GridPane.columnIndex="0" GridPane.rowIndex="2" GridPane.columnSpan="3" GridPane.halignment="CENTER"><!-- Parent HBox -->
+        <HBox>
+          <ImageView fitHeight="224" fitWidth="150" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="0"
+                     GridPane.rowIndex="1" GridPane.rowSpan="6">
+            <Image url="@1.jpg"/>
+          </ImageView>
+        </HBox>
+        <HBox>
+          <VBox>
+            <Label styleClass="Label--low-gap" text="Student Name "/>
+            <Label styleClass="Label--low-gap" text="Father's Name "/>
+            <Label styleClass="Label--low-gap" text="Branch "/>
+            <Label styleClass="Label--low-gap" text="Semester "/>
+            <Label styleClass="Label--low-gap" text="Mobile No. "/>
+          </VBox>
+          <VBox>
+            <Label styleClass="Label--low-gap" text=": "/>
+            <Label styleClass="Label--low-gap" text=": "/>
+            <Label styleClass="Label--low-gap" text=": "/>
+            <Label styleClass="Label--low-gap" text=": "/>
+            <Label styleClass="Label--low-gap" text=": "/>
+          </VBox>
+          <VBox>
+            <Label styleClass="Label--low-gap" text="Bilal Ahmed"/>
+            <Label styleClass="Label--low-gap" text="Khaleel Ahmed"/>
+            <Label styleClass="Label--low-gap" text="C.S"/>
+            <Label styleClass="Label--low-gap" text="VI"/>
+            <Label styleClass="Label--low-gap" text="7895126594"/>
+          </VBox>
+        </HBox>
+      </HBox><!-- End Parent HBox -->
 
-  <VBox GridPane.columnIndex="1" GridPane.rowIndex="9"><!-- Submitted Pane -->
-    <Label styleClass="Label" text="Submitted" prefWidth="130"/>
-    <TextField styleClass="Input">
-      <VBox.margin>
-        <Insets top="1.5"/>
-      </VBox.margin>
-    </TextField>
-    <TextField styleClass="Input">
-      <VBox.margin>
-        <Insets top="1.5"/>
-      </VBox.margin>
-    </TextField>
-    <TextField styleClass="Input">
-      <VBox.margin>
-        <Insets top="1.5"/>
-      </VBox.margin>
-    </TextField>
-    <TextField styleClass="Input">
-      <VBox.margin>
-        <Insets top="1.5"/>
-      </VBox.margin>
-    </TextField>
-    <TextField styleClass="Input">
-      <VBox.margin>
-        <Insets top="1.5"/>
-      </VBox.margin>
-    </TextField>
-    <TextField styleClass="Input">
-      <VBox.margin>
-        <Insets top="1.5"/>
-      </VBox.margin>
-    </TextField>
-  </VBox><!-- End Submitted Pane -->
+      <VBox GridPane.columnIndex="0" GridPane.rowIndex="9"><!--Semester Pane-->
+        <Label styleClass="Label" text="Semester"/>
+        <Label text="Semester I" styleClass="Label--low-gap"/>
+        <Label text="Semester II" styleClass="Label--low-gap"/>
+        <Label text="Semester III" styleClass="Label--low-gap"/>
+        <Label text="Semester IV" styleClass="Label--low-gap"/>
+        <Label text="Semester V" styleClass="Label--low-gap"/>
+        <Label text="Semester VI" styleClass="Label--low-gap"/>
+      </VBox><!-- End Semester Pane -->
 
-  <VBox GridPane.columnIndex="3" GridPane.rowIndex="9"><!-- Due Pane -->
-    <Label styleClass="Label" text="Due"/>
-    <TextField styleClass="Input" prefWidth="120">
-      <VBox.margin>
-        <Insets top="1.5"/>
-      </VBox.margin>
-    </TextField>
-    <TextField styleClass="Input" prefWidth="120">
-      <VBox.margin>
-        <Insets top="1.5"/>
-      </VBox.margin>
-    </TextField>
-    <TextField styleClass="Input" prefWidth="120">
-      <VBox.margin>
-        <Insets top="1.5"/>
-      </VBox.margin>
-    </TextField>
-    <TextField styleClass="Input" prefWidth="120">
-      <VBox.margin>
-        <Insets top="1.5"/>
-      </VBox.margin>
-    </TextField>
-    <TextField styleClass="Input" prefWidth="120">
-      <VBox.margin>
-        <Insets top="1.5"/>
-      </VBox.margin>
-    </TextField>
-    <TextField styleClass="Input" prefWidth="120">
-      <VBox.margin>
-        <Insets top="1.5"/>
-      </VBox.margin>
-    </TextField>
-  </VBox><!-- End Due Pane -->
-</GridPane>
+      <VBox GridPane.columnIndex="1" GridPane.rowIndex="9"><!-- Submitted Pane -->
+        <Label styleClass="Label" text="Submitted" prefWidth="130"/>
+        <TextField styleClass="Input">
+          <VBox.margin>
+            <Insets top="1.5"/>
+          </VBox.margin>
+        </TextField>
+        <TextField styleClass="Input">
+          <VBox.margin>
+            <Insets top="1.5"/>
+          </VBox.margin>
+        </TextField>
+        <TextField styleClass="Input">
+          <VBox.margin>
+            <Insets top="1.5"/>
+          </VBox.margin>
+        </TextField>
+        <TextField styleClass="Input">
+          <VBox.margin>
+            <Insets top="1.5"/>
+          </VBox.margin>
+        </TextField>
+        <TextField styleClass="Input">
+          <VBox.margin>
+            <Insets top="1.5"/>
+          </VBox.margin>
+        </TextField>
+        <TextField styleClass="Input">
+          <VBox.margin>
+            <Insets top="1.5"/>
+          </VBox.margin>
+        </TextField>
+      </VBox><!-- End Submitted Pane -->
+
+      <VBox GridPane.columnIndex="3" GridPane.rowIndex="9"><!-- Due Pane -->
+        <Label styleClass="Label" text="Due"/>
+        <TextField styleClass="Input" prefWidth="120">
+          <VBox.margin>
+            <Insets top="1.5"/>
+          </VBox.margin>
+        </TextField>
+        <TextField styleClass="Input" prefWidth="120">
+          <VBox.margin>
+            <Insets top="1.5"/>
+          </VBox.margin>
+        </TextField>
+        <TextField styleClass="Input" prefWidth="120">
+          <VBox.margin>
+            <Insets top="1.5"/>
+          </VBox.margin>
+        </TextField>
+        <TextField styleClass="Input" prefWidth="120">
+          <VBox.margin>
+            <Insets top="1.5"/>
+          </VBox.margin>
+        </TextField>
+        <TextField styleClass="Input" prefWidth="120">
+          <VBox.margin>
+            <Insets top="1.5"/>
+          </VBox.margin>
+        </TextField>
+        <TextField styleClass="Input" prefWidth="120">
+          <VBox.margin>
+            <Insets top="1.5"/>
+          </VBox.margin>
+        </TextField>
+      </VBox><!-- End Due Pane -->
+    </GridPane>
+  </center>
+</BorderPane>

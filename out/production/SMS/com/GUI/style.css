@@ -28,7 +28,7 @@
   -fx-left: #ff5e5b;
 }
 
-.root{
+.Root{
   -fx-font-family: Montserrat;
   -fx-background: -fx-Pane;
   -fx-padding: 50px;
@@ -57,13 +57,13 @@
   -fx-background-color: none;
   -fx-effects: dropshadow(three-pass-box , #111, 0, 0, 0, 0);
 }
-.root .head{
+.head{
   -fx-font-size: 36;
   -fx-fill: -fx-Text;
   -fx-weight: Bold;
 }
-.Label{
-  -fx-fill: -fx-Text;
+.label{
+  -fx-fill: #95a5a6;
   -fx-font-family: Montserrat;
   -fx-font-size: 18;
   -fx-padding: 10px 0 3 0;

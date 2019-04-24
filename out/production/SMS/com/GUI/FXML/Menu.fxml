@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?import javafx.scene.layout.HBox?>
-
 <?import javafx.scene.control.Button?>
+
 <HBox xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="com.GUI.Controller.MenuController">
-  <Button text="Pass Outs" fx:id="Pass_Outs" onAction="#changeScene"/>
-  <Button text="Fess" fx:id="Fees" onAction="#changeScene"/>
-  <Button text="New Admission" fx:id="New_Admission" onAction="#changeScene"/>
-  <Button text="Result" fx:id="Result" onAction="#changeScene"/>
-  <Button text="About" fx:id="About" onAction="#changeScene"/>
+  <Button text="Pass Out Students" fx:id="Pass_Outs" styleClass="nav" onAction="#changeScene"/>
+  <Button text="Fees Records/Submit" fx:id="Fees" styleClass="nav" onAction="#changeScene"/>
+  <Button text="New Admission" fx:id="New_Admission" styleClass="nav" onAction="#changeScene"/>
+  <Button text="Results" fx:id="Result" styleClass="nav" onAction="#changeScene"/>
+  <Button text="About" fx:id="About" styleClass="nav" onAction="#changeScene"/>
 </HBox>

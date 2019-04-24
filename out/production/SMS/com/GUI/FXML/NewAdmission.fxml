@@ -2,7 +2,14 @@
 <?import javafx.scene.layout.GridPane?>
 
 <?import javafx.scene.control.Label?>
-<GridPane xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="com.GUI.Controller.NewAdmissionController">
-  <fx:include source="Menu.fxml" GridPane.columnIndex="0" GridPane.rowIndex="0" GridPane.columnSpan="2" />
-  <Label text="New Admission Window" GridPane.columnIndex="0" GridPane.rowIndex="1"/>
-</GridPane>
+<?import javafx.scene.layout.BorderPane?>
+<BorderPane xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="com.GUI.Controller.NewAdmissionController">
+  <top>
+    <fx:include source="Menu.fxml"/>
+  </top>
+  <center>
+    <GridPane alignment="CENTER">
+      <Label text="New Admission Window" GridPane.columnIndex="0" GridPane.rowIndex="1"/>
+    </GridPane>
+  </center>
+</BorderPane>

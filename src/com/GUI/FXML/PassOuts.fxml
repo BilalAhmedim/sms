@@ -5,12 +5,19 @@
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.control.Button?>
 
-<GridPane stylesheets="@../style.css" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="com.GUI.Controller.PassOutsController">
-  <fx:include source="Menu.fxml" GridPane.columnIndex="0" GridPane.rowIndex="0" GridPane.columnSpan="2" />
-  <VBox GridPane.columnIndex="0" GridPane.rowIndex="1" GridPane.columnSpan="4">
-    <Label text="Search Pass Out Students" styleClass="Header__Label"/>
-    <Label text="Enrolment No:" styleClass="Label"/>
-    <TextField promptText="Enter Student Enrolment No" styleClass="input"/>
-    <Button text="Search" styleClass="Button"/>
-  </VBox>
-</GridPane>
+<?import javafx.scene.layout.BorderPane?>
+<BorderPane stylesheets="@../style.css" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="com.GUI.Controller.PassOutsController">
+  <top>
+    <fx:include source="Menu.fxml" styleClass="Navigation"/>
+  </top>
+  <center>
+    <GridPane alignment="CENTER">
+      <VBox GridPane.columnIndex="0" GridPane.rowIndex="1" GridPane.columnSpan="4">
+        <Label text="Search Pass Out Students" styleClass="Header__Label"/>
+        <Label text="Enrolment No:" styleClass="Label"/>
+        <TextField promptText="Enter Student Enrolment No" styleClass="input"/>
+        <Button text="Search" styleClass="Button"/>
+      </VBox>
+    </GridPane>
+  </center>
+</BorderPane>
