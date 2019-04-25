@@ -38,7 +38,7 @@
   -fx-background-color: -fx-Input;
   -fx-effect: dropshadow(three-pass-box , -fx-Input, 24, 0, 0, 5px);
 }
-.button{
+.Button{
   -fx-background-color: -fx-Button;
   -fx-font-size: 16;
   -fx-padding: 5 12;
@@ -62,8 +62,8 @@
   -fx-fill: -fx-Text;
   -fx-weight: Bold;
 }
-.label{
-  -fx-fill: #95a5a6;
+.Label{
+  -fx-fill: -fx-Text;
   -fx-font-family: Montserrat;
   -fx-font-size: 18;
   -fx-padding: 10px 0 3 0;

@@ -52,6 +52,13 @@ public class MenuController {
       window.setTitle("Student Results");
       window.setScene(scene);
       window.show();
+    }else if(event.getSource() == About){
+      Parent pane = FXMLLoader.load(getClass().getResource("../FXML/About.fxml"));
+      Scene scene = new Scene(pane);
+      Stage window = (Stage) ((Node)event.getSource()).getScene().getWindow();
+      window.setTitle("About");
+      window.setScene(scene);
+      window.show();
     }
   }
 }
