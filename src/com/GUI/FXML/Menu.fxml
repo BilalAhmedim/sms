@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?import javafx.scene.layout.HBox?>
-<?import javafx.scene.control.Button?>
 
-<HBox xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="com.GUI.Controller.MenuController">
-  <Button text="Pass Out Students" fx:id="Pass_Outs" styleClass="nav" onAction="#changeScene"/>
-  <Button text="Fees Records/Submit" fx:id="Fees" styleClass="nav" onAction="#changeScene"/>
-  <Button text="New Admission" fx:id="New_Admission" styleClass="nav" onAction="#changeScene"/>
-  <Button text="Results" fx:id="Result" styleClass="nav" onAction="#changeScene"/>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.HBox?>
+
+<HBox xmlns="https://javafx.com/fxml" xmlns:fx="http://javafx.com/fxml" fx:controller="com.GUI.Controller.MenuController">
+  <Button text="Home" fx:id="Home" styleClass="nav" onAction="#changeScene"/>
+  <Button text="Pass Outs Students" fx:id="Pass_Outs" styleClass="nav" onAction="#changeScene"/>
+  <Button text="Fees Submission" fx:id="Fees" styleClass="nav" onAction="#changeScene"/>
+  <Button text="Documentation / New Admission" fx:id="New_Admission" styleClass="nav" onAction="#changeScene"/>
+  <Button text="Correction" fx:id="Correction_Search" styleClass="nav" onAction="#changeScene"/>
+  <Button text="Result" fx:id="Result" styleClass="nav" onAction="#changeScene"/>
   <Button text="About" fx:id="About" styleClass="nav" onAction="#changeScene"/>
 </HBox>
