@@ -59,7 +59,7 @@ public class MenuController {
       window.setScene(scene);
       window.show();
     }else if(event.getSource() == Correction_Search){
-      Parent Pane = FXMLLoader.load(getClass().getResource("../FXML/Correction_Search.fxml"));
+      Parent Pane = FXMLLoader.load(getClass().getResource("../FXML/Correction.fxml"));
       Scene scene = new Scene(Pane);
       Stage window = (Stage) ((Node)event.getSource()).getScene().getWindow();
       window.setTitle("Correction Search");

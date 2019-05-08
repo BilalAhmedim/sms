@@ -8,8 +8,8 @@
 <?import javafx.scene.layout.BorderPane?>
 <BorderPane stylesheets="@../style.css" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="com.GUI.Controller.PassOutsController">
   <top>
-    <fx:include source="Menu.fxml" styleClass="Navigation"/>
-  </top>
+  <fx:include source="Menu.fxml" styleClass="Navigation"/>
+</top>
   <center>
     <GridPane alignment="CENTER">
       <VBox GridPane.columnIndex="0" GridPane.rowIndex="1" GridPane.columnSpan="4">

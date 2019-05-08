@@ -20,7 +20,8 @@ public class MainController {
   private Button New_Admission;
   @FXML
   private Button Result;
-
+  @FXML
+  private Button Correction_Search;
   @FXML
   public void MainWindow(ActionEvent event) throws IOException{
     if (event.getSource() == Pass_Outs) {
@@ -49,6 +50,13 @@ public class MainController {
       Scene scene = new Scene(pane);
       Stage window = (Stage) ((Node)event.getSource()).getScene().getWindow();
       window.setTitle("Student Results");
+      window.setScene(scene);
+      window.show();
+    }else if(event.getSource() == Correction_Search){
+      Parent pane = FXMLLoader.load(getClass().getResource("../FXML/CorrectionSearch.fxml"));
+      Scene scene = new Scene(pane);
+      Stage window = (Stage) ((Node)event.getSource()).getScene().getWindow();
+      window.setTitle("Search Student for Correction");
       window.setScene(scene);
       window.show();
     }

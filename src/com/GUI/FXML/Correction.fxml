@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?import javafx.scene.layout.GridPane?>
 
-<?import javafx.scene.control.Label?>
-<?import javafx.scene.layout.BorderPane?>
-<?import javafx.scene.control.TextField?>
-<?import javafx.scene.control.Button?>
-<BorderPane xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="com.GUI.Controller.NewAdmissionController">
-  <top>
-    <fx:include source="Menu.fxml"/>
-  </top>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="com.GUI.Controller.CorrectionController">
+<top>
+  <fx:include source="Menu.fxml"/>
+</top>
   <center>
     <GridPane alignment="CENTER">
       <Label text="First Name" GridPane.columnIndex="0" GridPane.rowIndex="0"/>

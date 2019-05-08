@@ -3,13 +3,51 @@
 
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.Button?>
 <BorderPane xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="com.GUI.Controller.NewAdmissionController">
   <top>
     <fx:include source="Menu.fxml"/>
   </top>
   <center>
     <GridPane alignment="CENTER">
-      <Label text="New Admission Window" GridPane.columnIndex="0" GridPane.rowIndex="1"/>
+      <Label text="First Name" GridPane.columnIndex="0" GridPane.rowIndex="0"/>
+      <Label text="Last Name" GridPane.columnIndex="0" GridPane.rowIndex="1"/>
+      <Label text="Father's Name" GridPane.columnIndex="0" GridPane.rowIndex="2"/>
+      <Label text="Mother's Name" GridPane.columnIndex="0" GridPane.rowIndex="3"/>
+      <Label text="D.O.B" GridPane.columnIndex="0" GridPane.rowIndex="4"/>
+      <Label text="Mobile No." GridPane.columnIndex="0" GridPane.rowIndex="5"/>
+      <Label text="Address" GridPane.columnIndex="0" GridPane.rowIndex="6"/>
+      <Label text="High Scool Marksheet" GridPane.columnIndex="0" GridPane.rowIndex="7"/>
+      <Label text="Intermediate Marksheet" GridPane.columnIndex="0" GridPane.rowIndex="8"/>
+      <Label text="Transfer Certificate" GridPane.columnIndex="0" GridPane.rowIndex="9"/>
+      <Label text="Cast Certificate" GridPane.columnIndex="0" GridPane.rowIndex="10"/>
+      <Label text="Income Certificate" GridPane.columnIndex="0" GridPane.rowIndex="11"/>
+      <Label text=" : " GridPane.columnIndex="1" GridPane.rowIndex="0"/>
+      <Label text=" : " GridPane.columnIndex="1" GridPane.rowIndex="1"/>
+      <Label text=" : " GridPane.columnIndex="1" GridPane.rowIndex="2"/>
+      <Label text=" : " GridPane.columnIndex="1" GridPane.rowIndex="3"/>
+      <Label text=" : " GridPane.columnIndex="1" GridPane.rowIndex="4"/>
+      <Label text=" : " GridPane.columnIndex="1" GridPane.rowIndex="5"/>
+      <Label text=" : " GridPane.columnIndex="1" GridPane.rowIndex="6"/>
+      <Label text=" : " GridPane.columnIndex="1" GridPane.rowIndex="7"/>
+      <Label text=" : " GridPane.columnIndex="1" GridPane.rowIndex="8"/>
+      <Label text=" : " GridPane.columnIndex="1" GridPane.rowIndex="9"/>
+      <Label text=" : " GridPane.columnIndex="1" GridPane.rowIndex="10"/>
+      <Label text=" : " GridPane.columnIndex="1" GridPane.rowIndex="11"/>
+      <TextField GridPane.columnIndex="2" GridPane.rowIndex="0"/>
+      <TextField GridPane.columnIndex="2" GridPane.rowIndex="1"/>
+      <TextField GridPane.columnIndex="2" GridPane.rowIndex="2"/>
+      <TextField GridPane.columnIndex="2" GridPane.rowIndex="3"/>
+      <TextField GridPane.columnIndex="2" GridPane.rowIndex="4"/>
+      <TextField GridPane.columnIndex="2" GridPane.rowIndex="5"/>
+      <TextField GridPane.columnIndex="2" GridPane.rowIndex="6"/>
+      <TextField GridPane.columnIndex="2" GridPane.rowIndex="7"/>
+      <TextField GridPane.columnIndex="2" GridPane.rowIndex="8"/>
+      <TextField GridPane.columnIndex="2" GridPane.rowIndex="9"/>
+      <TextField GridPane.columnIndex="2" GridPane.rowIndex="10"/>
+      <TextField GridPane.columnIndex="2" GridPane.rowIndex="11"/>
+      <Button text="Submit" GridPane.columnIndex="2" GridPane.rowIndex="12" GridPane.halignment="RIGHT"/>
     </GridPane>
   </center>
 </BorderPane>

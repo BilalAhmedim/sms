@@ -11,5 +11,4 @@
   <Button text="Correction" fx:id="Correction_Search" styleClass="nav" onAction="#changeScene"/>
   <Button text="Result" fx:id="Result" styleClass="nav" onAction="#changeScene"/>
   <Button text="About" fx:id="About" styleClass="nav" onAction="#changeScene"/>
-  <Button text="Close" fx:id="Close" styleClass="nav" onAction="#changeScene"/>
 </HBox>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="com.GUI.Controller.CorrectionSearchController">
+  <top>
+    <fx:include source="Menu.fxml" styleClass="Navigation"/>
+  </top>
+  <center>
+    <GridPane alignment="CENTER">
+      <VBox GridPane.columnIndex="0" GridPane.rowIndex="1" GridPane.columnSpan="4">
+        <Label text="Search Students for Correction" styleClass="Header__Label"/>
+        <Label text="Enrolment No / Name:" styleClass="Label"/>
+        <TextField promptText="Enter Student Enrolment No" styleClass="input"/>
+        <Button text="Search" styleClass="Button" fx:id="Search" onAction="#Search"/>
+      </VBox>
+    </GridPane>
+  </center>
+</BorderPane>
