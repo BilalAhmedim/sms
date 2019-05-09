@@ -17,13 +17,9 @@ public class CorrectionSearchController {
   private Button Search;
 
   public void Search(ActionEvent event) throws IOException {
+    Functions functions = new Functions();
     if (event.getSource() == Search){
-      Parent pane = FXMLLoader.load(getClass().getResource("../FXML/Correction.fxml"));
-      Scene scene = new Scene(pane);
-      Stage window = (Stage) ((Node)event.getSource()).getScene().getWindow();
-      window.setTitle("Correction");
-      window.setScene(scene);
-      window.show();
+      functions.ChangeScene("../FXML/Correction.fxml", "Correction", event);
     }
   }
 }

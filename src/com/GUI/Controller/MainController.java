@@ -24,42 +24,17 @@ public class MainController {
   private Button Correction_Search;
   @FXML
   public void MainWindow(ActionEvent event) throws IOException{
+    Functions functions = new Functions();
     if (event.getSource() == Pass_Outs) {
-      Parent Pane = FXMLLoader.load(getClass().getResource("../FXML/PassOuts.fxml"));
-      Scene scene = new Scene(Pane);
-      Stage window = (Stage) ((Node)event.getSource()).getScene().getWindow();
-      window.setTitle("Pass Outs Students");
-      window.setScene(scene);
-      window.show();
+      functions.ChangeScene("../FXML/PassOuts.fxml", "Pass Outs Students", event);
     } else if(event.getSource() == Fees){
-      Parent pane = FXMLLoader.load(getClass().getResource("../FXML/Fees.fxml"));
-      Scene scene = new Scene(pane);
-      Stage window = (Stage) ((Node)event.getSource()).getScene().getWindow();
-      window.setTitle("Fees Submission");
-      window.setScene(scene);
-      window.show();
+      functions.ChangeScene("../FXML/Fees.fxml", "Fees Submission", event);
     }else if(event.getSource() == New_Admission){
-      Parent pane = FXMLLoader.load(getClass().getResource("../FXML/NewAdmission.fxml"));
-      Scene scene = new Scene(pane);
-      Stage window = (Stage) ((Node)event.getSource()).getScene().getWindow();
-      window.setTitle("New Admission");
-      window.setScene(scene);
-      window.show();
+      functions.ChangeScene("../FXML/NewAdmission.fxml", "New Admission", event);
     }else if(event.getSource() == Result){
-      Parent pane = FXMLLoader.load(getClass().getResource("../FXML/Result.fxml"));
-      Scene scene = new Scene(pane);
-      Stage window = (Stage) ((Node)event.getSource()).getScene().getWindow();
-      window.setTitle("Student Results");
-      window.setScene(scene);
-      window.show();
+      functions.ChangeScene( "../FXML/Result.fxml", "Student Results", event);
     }else if(event.getSource() == Correction_Search){
-      Parent pane = FXMLLoader.load(getClass().getResource("../FXML/CorrectionSearch.fxml"));
-      Scene scene = new Scene(pane);
-      Stage window = (Stage) ((Node)event.getSource()).getScene().getWindow();
-      window.setTitle("Search Student for Correction");
-      window.setScene(scene);
-      window.show();
+      functions.ChangeScene("../FXML/CorrectionSearch.fxml", "Search Student for Correction", event);
     }
   }
-
 }

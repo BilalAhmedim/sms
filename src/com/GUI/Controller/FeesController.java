@@ -13,11 +13,7 @@ import java.io.IOException;
 public class FeesController {
   @FXML
   public void changeScene(ActionEvent event) throws IOException {
-    Parent pane = FXMLLoader.load(getClass().getResource("../FXML/FeesRecords.fxml"));
-    Scene scene = new Scene(pane);
-    Stage window = (Stage) ((Node)event.getSource()).getScene().getWindow();
-    window.setTitle("Fees Submission");
-    window.setScene(scene);
-    window.show();
+    Functions functions = new Functions();
+    functions.ChangeScene("../FXML/FeesRecords.fxml", "Fees Submission", event);
   }
 }
