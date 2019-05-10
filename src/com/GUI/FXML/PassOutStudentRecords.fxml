@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+<GridPane xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="com.GUI.Controller.PassOutStudentRecordsController">
+  <Label text="Student Record" GridPane.columnIndex="0" GridPane.rowIndex="0" GridPane.halignment="CENTER"/>
+  <HBox GridPane.rowIndex="1" GridPane.columnIndex="0">
+    <VBox>
+      <ImageView fitWidth="100" preserveRatio="true" pickOnBounds="true">
+        <Image url="@1.jpg"/>
+      </ImageView>
+    </VBox>
+    <VBox>
+      <Label text="Student Name"/>
+      <Label text="Father's Name"/>
+      <Label text="Branch"/>
+      <Label text="Passout Year"/>
+      <Label text="Mobile No."/>
+    </VBox>
+    <VBox>
+      <Label text=" : "/>
+      <Label text=" : "/>
+      <Label text=" : "/>
+      <Label text=" : "/>
+      <Label text=" : "/>
+    </VBox>
+    <VBox>
+      <Label text="My Name"/>
+      <Label text="My Father's Name"/>
+      <Label text="Computer Science"/>
+      <Label text="2019"/>
+      <Label text="12345678910"/>
+    </VBox>
+  </HBox>
+  <HBox GridPane.rowIndex="2" GridPane.columnIndex="0">
+    <Label text="Address :"/>
+    <Label text="This is default placeholder address text moradabad - 244001 U.P India" wrapText="true" maxWidth="300"/>
+    <ImageView pickOnBounds="true" preserveRatio="true" fitWidth="400">
+      <Image url="@1.jpg"/>
+    </ImageView>
+  </HBox>
+</GridPane>

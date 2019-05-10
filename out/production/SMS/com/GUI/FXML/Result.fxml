@@ -1,23 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?import javafx.scene.layout.GridPane?>
 
-<?import javafx.scene.control.Label?>
-<?import javafx.scene.layout.BorderPane?>
-<?import javafx.scene.layout.VBox?>
-<?import javafx.scene.control.TextField?>
 <?import javafx.scene.control.Button?>
-<BorderPane xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="com.GUI.Controller.ResultController">
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+
+<?import javafx.scene.image.Image?>
+<BorderPane xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.GUI.Controller.ResultController">
   <top>
-    <fx:include source="Menu.fxml"/>
+    <fx:include source="Menu.fxml" />
   </top>
   <center>
     <GridPane alignment="CENTER">
-      <VBox GridPane.columnIndex="0" GridPane.rowIndex="1" GridPane.columnSpan="4">
-        <Label text="Fees Submission" styleClass="Header__Label"/>
-        <Label text="Enrolment No:" styleClass="Label"/>
-        <TextField promptText="Enter Student Enrolment No" styleClass="input"/>
-        <Button text="Search" styleClass="Button" onAction="#changeScene"/>
+      <VBox GridPane.columnIndex="0" GridPane.rowIndex="0">
+        <Label styleClass="Header__Label" text="Student Result" />
+        <Label styleClass="Label" text="Enrolment No:" />
+        <TextField promptText="Enter Student Enrolment No" styleClass="input" />
+        <Button onAction="#changeScene" styleClass="Button" text="Search" />
       </VBox>
+      <ImageView fitHeight="-NaN" fitWidth="300" pickOnBounds="true" preserveRatio="true" GridPane.halignment="CENTER" GridPane.columnIndex="0" GridPane.rowIndex="1">
+        <Image url="@1.jpg"/>
+      </ImageView>
     </GridPane>
   </center>
 </BorderPane>
