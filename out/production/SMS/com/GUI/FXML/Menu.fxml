@@ -3,7 +3,7 @@
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.layout.HBox?>
 
-<HBox xmlns="https://javafx.com/fxml" xmlns:fx="http://javafx.com/fxml" fx:controller="com.GUI.Controller.MenuController">
+<HBox xmlns="https://javafx.com/fxml" xmlns:fx="http://javafx.com/fxml" fx:controller="com.GUI.Controller.MenuController" stylesheets="@../style.css">
   <Button text="Home" fx:id="Home" styleClass="nav" onAction="#changeScene"/>
   <Button text="Pass Outs Students" fx:id="Pass_Outs" styleClass="nav" onAction="#changeScene"/>
   <Button text="Fees Submission" fx:id="Fees" styleClass="nav" onAction="#changeScene"/>

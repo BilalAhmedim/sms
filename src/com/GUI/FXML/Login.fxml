@@ -8,7 +8,7 @@
 <?import javafx.scene.layout.GridPane?>
 
 <?import javafx.geometry.Insets?>
-<GridPane alignment="CENTER" styleClass="root" stylesheets="@../style.css" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="com.GUI.Controller.LoginController">
+<GridPane alignment="CENTER" stylesheets="@../style.css" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="com.GUI.Controller.LoginController">
   <columnConstraints>
     <ColumnConstraints/>
     <ColumnConstraints prefWidth="130"/>
@@ -17,12 +17,12 @@
   </columnConstraints>
   <Label styleClass="head" text="MPI Login" GridPane.columnIndex="0" GridPane.columnSpan="4" GridPane.halignment="CENTER" GridPane.rowIndex="0"/>
   <Label styleClass="labels" text="User Name:" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.rowIndex="1" />
-  <TextField fx:id="LoginUserName" styleClass="input" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.rowIndex="2"/>
-  <Label fx:id="UserNameError" styleClass="text" />
+  <TextField fx:id="LoginUserName" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.rowIndex="2"/>
+  <Label fx:id="UserNameError" />
   <Label styleClass="labels" text="Password:" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.rowIndex="3" />
-  <PasswordField fx:id="LoginUserPassword" styleClass="input" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.rowIndex="4"/>
+  <PasswordField fx:id="LoginUserPassword" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.rowIndex="4"/>
   <Label fx:id="PasswordError" styleClass="text" />
-  <Button fx:id="Login" onAction="#Login" styleClass="button text" text="Login" GridPane.columnIndex="2" GridPane.halignment="RIGHT" GridPane.rowIndex="5">
+  <Button fx:id="Login" onAction="#Login" text="Login" GridPane.columnIndex="2" GridPane.halignment="RIGHT" GridPane.rowIndex="5">
     <GridPane.margin>
       <Insets top="15"/>
     </GridPane.margin>

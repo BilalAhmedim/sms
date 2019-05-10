@@ -8,7 +8,7 @@
 <?import javafx.scene.layout.GridPane?>
 
 <?import javafx.geometry.Insets?>
-<GridPane alignment="CENTER" styleClass="root" stylesheets="@../style.css" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="com.GUI.Controller.LoginController">
+<GridPane alignment="CENTER" stylesheets="@../style.css" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="com.GUI.Controller.LoginController">
   <columnConstraints>
     <ColumnConstraints/>
     <ColumnConstraints prefWidth="130"/>

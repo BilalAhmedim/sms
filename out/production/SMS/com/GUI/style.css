@@ -21,28 +21,38 @@
 */
 *{
   -fx-Pane: #fff;
-  -fx-Input: #ccc;
-  -fx-Button: #bbb;
+  -fx-Input: #fff;
+  -fx-Button: #1f8fe8;
   -fx-Text: #000f08;
-  -fx-right: #c3b3cc;
-  -fx-left: #ff5e5b;
 }
 
-.Root{
+.root{
   -fx-font-family: Montserrat;
-  -fx-background: -fx-Pane;
-  -fx-padding: 50px;
+  -fx-background-color: -fx-Pane;
+  -fx-padding: 0 50 50 50;
 }
-.input{
+Label{
+  -fx-fill: -fx-Text;
+  -fx-font-family: Montserrat;
+  -fx-font-size: 18;
+  -fx-padding: 10px 0 3 0;
+}
+TextField{
   -fx-width: 200px;
   -fx-background-color: -fx-Input;
-  -fx-effect: dropshadow(three-pass-box , -fx-Input, 24, 0, 0, 5px);
+  -fx-border-insets: 0;
+  -fx-border-width: 1;
+  -fx-border-color: -fx-Input -fx-Input #000 -fx-Input;
 }
-.Button{
+Button{
   -fx-background-color: -fx-Button;
+  -fx-fill: #fff;
   -fx-font-size: 16;
   -fx-padding: 5 12;
-  -fx-effect: dropshadow(three-pass-box , -fx-Input, 24, 0, 0, 5px);
+  -fx-border-radius: 0;
+  -fx-border-insets: 0;
+  -fx-border-width: 1 1 0 1;
+  -fx-border-color: #fff;
 }
 .main{
   -fx-padding: 0;
@@ -61,12 +71,6 @@
   -fx-font-size: 36;
   -fx-fill: -fx-Text;
   -fx-weight: Bold;
-}
-.Label{
-  -fx-fill: -fx-Text;
-  -fx-font-family: Montserrat;
-  -fx-font-size: 18;
-  -fx-padding: 10px 0 3 0;
 }
 .Label--low-gap{
   -fx-fill: -fx-Text;
