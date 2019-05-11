@@ -44,9 +44,16 @@ TextField{
   -fx-border-width: 1;
   -fx-border-color: -fx-Input -fx-Input #000 -fx-Input;
 }
+PasswordField{
+  -fx-width: 200px;
+  -fx-background-color: -fx-Input;
+  -fx-border-insets: 0;
+  -fx-border-width: 1;
+  -fx-border-color: -fx-Input -fx-Input #000 -fx-Input;
+}
 Button{
   -fx-background-color: -fx-Button;
-  -fx-fill: #fff;
+  -fx-text-fill: #fff;
   -fx-font-size: 16;
   -fx-padding: 5 12;
   -fx-border-radius: 0;
@@ -69,15 +76,15 @@ Button{
 }
 .head{
   -fx-font-size: 36;
-  -fx-fill: -fx-Text;
+  -fx-text-fill: -fx-Text;
   -fx-weight: Bold;
 }
 .Label--low-gap{
-  -fx-fill: -fx-Text;
+  -fx-text-fill: -fx-Text;
   -fx-font-family: Montserrat;
   -fx-font-size: 18;
   -fx-padding: 0;
 }
 .Header__Label{
--fx-font-size: 36;
+  -fx-font-size: 36;
 }

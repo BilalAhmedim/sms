@@ -20,44 +20,43 @@
 
       <HBox GridPane.columnIndex="0" GridPane.rowIndex="2" GridPane.columnSpan="3" GridPane.halignment="CENTER"><!-- Parent HBox -->
         <HBox>
-          <ImageView fitHeight="224" fitWidth="150" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="0"
-                     GridPane.rowIndex="1" GridPane.rowSpan="6">
+          <ImageView fitHeight="224" fitWidth="150" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="0" GridPane.rowIndex="1" GridPane.rowSpan="6">
             <Image url="@1.jpg"/>
           </ImageView>
         </HBox>
         <HBox>
           <VBox>
-            <Label styleClass="Label--low-gap" text="Student Name "/>
-            <Label styleClass="Label--low-gap" text="Father's Name "/>
-            <Label styleClass="Label--low-gap" text="Branch "/>
-            <Label styleClass="Label--low-gap" text="Semester "/>
-            <Label styleClass="Label--low-gap" text="Mobile No. "/>
+            <Label styleClass="--low-gap" text="Student Name "/>
+            <Label styleClass="--low-gap" text="Father's Name "/>
+            <Label styleClass="--low-gap" text="Branch "/>
+            <Label styleClass="--low-gap" text="Semester "/>
+            <Label styleClass="--low-gap" text="Mobile No. "/>
           </VBox>
           <VBox>
-            <Label styleClass="Label--low-gap" text=": "/>
-            <Label styleClass="Label--low-gap" text=": "/>
-            <Label styleClass="Label--low-gap" text=": "/>
-            <Label styleClass="Label--low-gap" text=": "/>
-            <Label styleClass="Label--low-gap" text=": "/>
+            <Label styleClass="--low-gap" text=": "/>
+            <Label styleClass="--low-gap" text=": "/>
+            <Label styleClass="--low-gap" text=": "/>
+            <Label styleClass="--low-gap" text=": "/>
+            <Label styleClass="--low-gap" text=": "/>
           </VBox>
           <VBox>
-            <Label styleClass="Label--low-gap" text="Bilal Ahmed"/>
-            <Label styleClass="Label--low-gap" text="Khaleel Ahmed"/>
-            <Label styleClass="Label--low-gap" text="C.S"/>
-            <Label styleClass="Label--low-gap" text="VI"/>
-            <Label styleClass="Label--low-gap" text="7895126594"/>
+            <Label styleClass="--low-gap" text="Bilal Ahmed"/>
+            <Label styleClass="--low-gap" text="Khaleel Ahmed"/>
+            <Label styleClass="--low-gap" text="C.S"/>
+            <Label styleClass="--low-gap" text="VI"/>
+            <Label styleClass="--low-gap" text="7895126594"/>
           </VBox>
         </HBox>
       </HBox><!-- End Parent HBox -->
 
       <VBox GridPane.columnIndex="0" GridPane.rowIndex="9"><!--Semester Pane-->
         <Label styleClass="Label" text="Semester"/>
-        <Label text="Semester I" styleClass="Label--low-gap"/>
-        <Label text="Semester II" styleClass="Label--low-gap"/>
-        <Label text="Semester III" styleClass="Label--low-gap"/>
-        <Label text="Semester IV" styleClass="Label--low-gap"/>
-        <Label text="Semester V" styleClass="Label--low-gap"/>
-        <Label text="Semester VI" styleClass="Label--low-gap"/>
+        <Label text="Semester I" styleClass="--low-gap"/>
+        <Label text="Semester II" styleClass="--low-gap"/>
+        <Label text="Semester III" styleClass="--low-gap"/>
+        <Label text="Semester IV" styleClass="--low-gap"/>
+        <Label text="Semester V" styleClass="--low-gap"/>
+        <Label text="Semester VI" styleClass="--low-gap"/>
       </VBox><!-- End Semester Pane -->
 
       <VBox GridPane.columnIndex="1" GridPane.rowIndex="9"><!-- Submitted Pane -->

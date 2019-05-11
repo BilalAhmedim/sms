@@ -15,8 +15,8 @@
         <Label text="Fees Submission" styleClass="Header__Label"/>
         <Label text="Enrolment No:" styleClass="Label"/>
         <TextField promptText="Enter Student Enrolment No" styleClass="input"/>
-        <Button text="Search" styleClass="Button" onAction="#changeScene"/>
       </VBox>
+      <Button text="Search" GridPane.columnIndex="3" GridPane.rowIndex="2" styleClass="Button" onAction="#changeScene" GridPane.halignment="CENTER"/>
     </GridPane>
   </center>
 </BorderPane>

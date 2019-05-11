@@ -13,11 +13,11 @@
   <center>
     <GridPane alignment="CENTER">
       <VBox GridPane.columnIndex="0" GridPane.rowIndex="1" GridPane.columnSpan="4">
-        <Label text="Search Students for Correction" styleClass="Header__Label"/>
+        <Label text="Search Students for Correction" styleClass="Header__Label" GridPane.halignment="LEFT"/>
         <Label text="Enrolment No / Name:" styleClass="Label"/>
         <TextField promptText="Enter Student Enrolment No" styleClass="input"/>
-        <Button text="Search" styleClass="Button" fx:id="Search" onAction="#Search"/>
       </VBox>
+      <Button text="Search" GridPane.columnIndex="3" GridPane.rowIndex="2" styleClass="Search_Button" fx:id="Search" onAction="#Search" GridPane.halignment="CENTER"/>
     </GridPane>
   </center>
 </BorderPane>
