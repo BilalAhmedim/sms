@@ -1,13 +1,21 @@
+import com.GUI.SQL.SQLConnection;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 import javafx.fxml.FXMLLoader;
 import javafx.application.Application;
 import java.io.File;
+import java.sql.SQLException;
 
 public class Main extends Application {
   public static void main(String[] args){
+    SQLConnection sqlConnection = new SQLConnection();
     launch(args);
+    try{
+      sqlConnection.Connection();
+    }catch (SQLException e){
+      System.out.println(e);
+    }
   }
 
   @Override

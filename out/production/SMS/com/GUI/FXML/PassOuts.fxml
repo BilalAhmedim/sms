@@ -14,10 +14,10 @@
     <GridPane alignment="CENTER">
       <VBox GridPane.columnIndex="0" GridPane.rowIndex="1" GridPane.columnSpan="4">
         <Label text="Search Pass Out Students" styleClass="Header__Label"/>
-        <Label text="Enrolment No:" styleClass="Label"/>
+        <Label text="Enrolment No / Name:"/>
         <TextField promptText="Enter Student Enrolment No" styleClass="input"/>
-        <Button text="Search" styleClass="Button"/>
       </VBox>
+      <Button text="Search" GridPane.columnIndex="3" GridPane.rowIndex="2" styleClass="Search_Button" GridPane.halignment="CENTER"/>
     </GridPane>
   </center>
 </BorderPane>

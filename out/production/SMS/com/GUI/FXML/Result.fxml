@@ -19,11 +19,11 @@
     <GridPane alignment="CENTER">
       <VBox GridPane.columnIndex="0" GridPane.rowIndex="0">
         <Label styleClass="Header__Label" text="Student Result" />
-        <Label styleClass="Label" text="Enrolment No:" />
+        <Label text="Enrolment No / Name:" />
         <TextField promptText="Enter Student Enrolment No" styleClass="input" />
-        <Button onAction="#changeScene" styleClass="Button" text="Search" />
       </VBox>
-      <ImageView fitHeight="-NaN" fitWidth="300" pickOnBounds="true" preserveRatio="true" GridPane.halignment="CENTER" GridPane.columnIndex="0" GridPane.rowIndex="1">
+      <Button GridPane.halignment="CENTER" GridPane.columnIndex="0" GridPane.rowIndex="1" onAction="#changeScene" styleClass="Button" text="Search" />
+      <ImageView fitHeight="-NaN" fitWidth="300" pickOnBounds="true" preserveRatio="true" GridPane.halignment="CENTER" GridPane.columnIndex="0" GridPane.rowIndex="2">
         <Image url="@1.jpg"/>
       </ImageView>
     </GridPane>

@@ -13,7 +13,7 @@
     <GridPane alignment="CENTER">
       <VBox GridPane.columnIndex="0" GridPane.rowIndex="1" GridPane.columnSpan="4">
         <Label text="Fees Submission" styleClass="Header__Label"/>
-        <Label text="Enrolment No:" styleClass="Label"/>
+        <Label text="Studen Enrolment No / Name:"/>
         <TextField promptText="Enter Student Enrolment No" styleClass="input"/>
       </VBox>
       <Button text="Search" GridPane.columnIndex="3" GridPane.rowIndex="2" styleClass="Button" onAction="#changeScene" GridPane.halignment="CENTER"/>
