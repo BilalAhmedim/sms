@@ -18,4 +18,21 @@ public class Functions {
     window.setScene(scene);
     window.show();
   }
+
+  public boolean CompareStr(String stringForCheck, String stringToCheck) {
+    boolean Result = true;
+    if (stringForCheck.length() == stringToCheck.length()) {
+      for (int i = 0; i == stringForCheck.length(); i++){
+        char char1 = stringForCheck.charAt(i);
+        char char2 = stringToCheck.charAt(i);
+        if(char1 != char2){
+          Result = false;
+          if (Result == false)
+            return false;
+        }
+      }
+    }else
+      Result = false;
+    return Result;
+  }
 }

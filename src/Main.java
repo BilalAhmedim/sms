@@ -9,13 +9,7 @@ import java.sql.SQLException;
 
 public class Main extends Application {
   public static void main(String[] args){
-    SQLConnection sqlConnection = new SQLConnection();
     launch(args);
-    try{
-      sqlConnection.Connection();
-    }catch (SQLException e){
-      System.out.println(e);
-    }
   }
 
   @Override
