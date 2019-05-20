@@ -35,19 +35,20 @@
       <Label text=" : " GridPane.columnIndex="1" GridPane.rowIndex="9"/>
       <Label text=" : " GridPane.columnIndex="1" GridPane.rowIndex="10"/>
       <Label text=" : " GridPane.columnIndex="1" GridPane.rowIndex="11"/>
-      <TextField GridPane.columnIndex="2" GridPane.rowIndex="0"/>
-      <TextField GridPane.columnIndex="2" GridPane.rowIndex="1"/>
-      <TextField GridPane.columnIndex="2" GridPane.rowIndex="2"/>
-      <TextField GridPane.columnIndex="2" GridPane.rowIndex="3"/>
-      <TextField GridPane.columnIndex="2" GridPane.rowIndex="4"/>
-      <TextField GridPane.columnIndex="2" GridPane.rowIndex="5"/>
-      <TextField GridPane.columnIndex="2" GridPane.rowIndex="6"/>
-      <TextField GridPane.columnIndex="2" GridPane.rowIndex="7"/>
-      <TextField GridPane.columnIndex="2" GridPane.rowIndex="8"/>
-      <TextField GridPane.columnIndex="2" GridPane.rowIndex="9"/>
-      <TextField GridPane.columnIndex="2" GridPane.rowIndex="10"/>
-      <TextField GridPane.columnIndex="2" GridPane.rowIndex="11"/>
-      <Button text="Submit" GridPane.columnIndex="2" GridPane.rowIndex="12" GridPane.halignment="RIGHT"/>
+      <TextField fx:id="FirstName" GridPane.columnIndex="2" GridPane.rowIndex="0"/><!--  First Name  -->
+      <TextField fx:id="LastName" GridPane.columnIndex="2" GridPane.rowIndex="1"/><!--  Last Name  -->
+      <TextField fx:id="FName" GridPane.columnIndex="2" GridPane.rowIndex="2"/><!--  Father Name  -->
+      <TextField fx:id="MName" GridPane.columnIndex="2" GridPane.rowIndex="3"/><!--  Mother Name  -->
+      <TextField fx:id="DOB" GridPane.columnIndex="2" GridPane.rowIndex="4"/><!--  DOB  -->
+      <TextField fx:id="Mobile" GridPane.columnIndex="2" GridPane.rowIndex="5"/><!--  Mobile  -->
+      <TextField fx:id="Address" GridPane.columnIndex="2" GridPane.rowIndex="6"/><!--  Address  -->
+      <TextField fx:id="Tenth" GridPane.columnIndex="2" GridPane.rowIndex="7"/><!--  10th  -->
+      <TextField fx:id="Inter" GridPane.columnIndex="2" GridPane.rowIndex="8"/><!--  12th  -->
+      <TextField fx:id="TC" GridPane.columnIndex="2" GridPane.rowIndex="9"/><!--  TC  -->
+      <TextField fx:id="CC" GridPane.columnIndex="2" GridPane.rowIndex="10"/><!--  CC  -->
+      <TextField fx:id="IC" GridPane.columnIndex="2" GridPane.rowIndex="11"/><!--  IC  -->
+      <Label GridPane.columnIndex="0" GridPane.rowIndex="12"/>
+      <Button text="Submit" GridPane.columnIndex="2" GridPane.rowIndex="12" GridPane.halignment="RIGHT" onAction="#Admission"/>
     </GridPane>
   </center>
 </BorderPane>

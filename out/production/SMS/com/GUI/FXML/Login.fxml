@@ -18,10 +18,9 @@
   <Label styleClass="head" text="MPI Login" GridPane.columnIndex="0" GridPane.columnSpan="4" GridPane.halignment="CENTER" GridPane.rowIndex="0"/>
   <Label text="User Name:" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.rowIndex="1" />
   <TextField fx:id="LoginUserName" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.rowIndex="2"/>
-  <Label fx:id="UserNameError" />
   <Label text="Password:" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.rowIndex="3" />
   <PasswordField fx:id="LoginUserPassword" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.rowIndex="4"/>
-  <Label fx:id="PasswordError" styleClass="text" />
+  <Label fx:id="errorMsg" styleClass="errorMsg" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.rowIndex="6"/>
   <Button fx:id="Login" onAction="#Login" text="Login" GridPane.columnIndex="2" GridPane.halignment="RIGHT" GridPane.rowIndex="5">
     <GridPane.margin>
       <Insets top="15"/>

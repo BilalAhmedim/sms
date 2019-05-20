@@ -16,22 +16,20 @@ public class LoginController {
   @FXML
   private PasswordField LoginUserPassword;
   @FXML
-  private Label UserNameError;
-  @FXML
-  private Label PasswordError;
-  @FXML
-  private Button Login;
+  private Label errorMsg;
+
   @FXML
   public void Login(ActionEvent event) throws Exception {
     SQLConnection sqlConnection = new SQLConnection();
     Functions functions = new Functions();
 
-    if (LoginUserName.getText() == sqlConnection.getUserName() && LoginUserPassword.getText() == sqlConnection.getPassword()) {
+    if (functions.CompareStr(LoginUserName.getText().trim(), sqlConnection.getUserName().trim())
+        &&
+        functions.CompareStr(LoginUserPassword.getText().trim(), sqlConnection.getUserPassword().trim())
+       ) {
       functions.ChangeScene("../FXML/MainWindow.fxml", "Student Management System", event);
-    }else{
-      System.out.println("Invalid User Name or Password.");
-      System.out.println("Entered User Name: " + sqlConnection.getUserName() +" -> "+ LoginUserName.getText());
-      System.out.println("Entered User Passsword: " + sqlConnection.getPassword() +" -> "+ LoginUserPassword.getText());
+    } else {
+      errorMsg.setText("Invalid User Name or Password");
     }
   }
 }
